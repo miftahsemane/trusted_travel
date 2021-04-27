@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+  }
+
+ .obnoxious_background {
+     background-image: url('https://media.giphy.com/media/R6dBelmkrqwlR0WWii/giphy.gif');
+ } 
+
+/* main {
+    /* border: 8px dotted rgb(204, 41, 0);
+} */
+
+ .belize_title {
+   text-align: right;
+     font-size: 150px;
+     margin: 0px;
+    background: -webkit-linear-gradient(rgb(151, 52, 231), rgb(130, 209, 40));
+    color: white;
+ }
+
+.header_flag {
+    display: flex;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 190px;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #fc3737;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #f2ff40;
+    color: rgb(255, 78, 78);
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(60, 255, 1);
+    color: rgb(7, 3, 3);
+  }
+
+  .line_item {
+    padding-left: 1rem;
+  }
+
+  .h2_about {
+      background-color: rgba(223, 226, 43, 0.507);
+      text-align: right;
+      font-size: 100px;
+      border: 3px dotted blue;
+      color: rgba(15, 15, 136, 0.808);
+  }
+
+  .h2_activities {
+    background-color: rgba(144, 41, 241, 0.452);
+    text-align: center;
+    font-size: 100px;
+    border: 3px dotted rgb(164, 224, 24);
+  }
+
+  .h2_lodging {
+    background-color: rgba(219, 77, 21, 0.507);
+    text-align: right;
+    font-size: 100px;
+    border: 3px dotted rgb(174, 33, 230);
+    color: rgb(255, 255, 255);
+  }
+
+  .about_section {
+      background-image: url('https://i0.wp.com/www.alltherooms.com/blog/wp-content/uploads/2018/08/Feature-Belize-Safe-By-Duarte-Dellarole.jpg?fit=1200%2C674&ssl=1');
+      display: flex;
+      margin-top: 90px;
+      margin-left: 200px;
+      justify-content: space-evenly;
+      height: 700px;
+      border: 3px dotted pink;
+  }
+
+  .about_article {
+      margin-top: 90px;
+      background-color: rgba(255, 255, 0, 0.603);
+      border: 10px solid rgba(43, 255, 15, 0.664);
+      margin-left: 10px;
+      color: white;
+  }
+
+  .activities_section {
+    display: flex;
+    margin-left: 170px;
+  }
+
+  .act_article {
+    background-color: rgb(41, 250, 232);
+    /* width: auto; */
+  }
+
+  .imgs {
+    border: 4px solid rgb(175, 182, 175);
+    width: 200px;
+  }
+
+  .p_lodging {
+      font-size: 30px;
+      text-align: center;
+      background: chartreuse;
+  }
+
+  .lodging_section {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .footer {
+      text-align: center;
+      background: -webkit-linear-gradient(rgb(157, 218, 60), rgb(36, 160, 197));
+      width: auto;
+     padding-top: 5px;
+     padding-bottom: 5px;
+  }
+
+  .footer_p {
+      font-size: 20px;
+  }
