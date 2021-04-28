@@ -1,0 +1,96 @@
+
+/* this makes the background to color changing in a few seconds */
+@keyframes bgcolor {
+    0% {
+        background-color:white
+    }
+
+    30% {
+        background-color: black
+    }
+
+    60% {
+        background-color: white
+    }
+
+    90% {
+        background-color:black
+    }
+
+    100% {
+        background-color:white
+    }
+}
+.dark {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 20s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;  
+}
+
+/* the header has it own background color and font-size*/
+.header{
+    font-size: 3rem;
+    font-family:fantasy;
+    text-align: center;
+    background-color: brown;
+}
+
+/* this gives background color for the entire body section */
+body{
+    background-color: red;
+}
+
+/* this is the first article in main secion */
+.bright_london{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+/* this gives the images radius and hover effect */
+img {
+    border-radius: 80%;
+    transition: transform .1s ease-in-out;
+  }
+img:hover {
+    transform: rotate(180deg);
+  }
+
+  /* this gives the quotes alignment, padding, and font-family */
+.bright_qote{
+    text-align: center;
+    padding: 2em;
+   font-family:cursive; 
+}
+/* this is the second article in the main section */
+.dark_london{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+.dark_qote{
+    text-align: center;
+    padding: 2em;
+    font-family:fantasy   
+}
+/* this creates the navebar at the bottom of the page */
+.navbar{
+    background-color:black;
+    overflow: hidden ; 
+    justify-content: space-evenly;
+}
+
+.navbar a{
+    color:rgb(14, 12, 12);
+    text-align: center;
+    padding: 70px 125px;
+    font-size: 18px;    
+    }
+    
+.navbar a:hover {
+        background-color: silver;
+        color: red;
+      }
+
+     
