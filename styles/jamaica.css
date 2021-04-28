@@ -12,13 +12,14 @@ header{
 
 body{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnNapGR7lvC4FCNhNrRXjnR3iqtZ4Et4ThsA&usqp=CAU");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
+    background-size: 100%; 
 }
 
 .main_article{
     display:flex;
-    flex-direction :row;
+    flex-direction:column;
 
 }
 
@@ -56,15 +57,28 @@ a:visited {
 }
 
 a:hover {
-  color:yellow;
+  color:red;
 }
 
 a:active {
-  color: red;
+  color: yellow;
 } 
 
-.daily_specials{
-    align-text:center;
-    font-size:30px;
+.resorts{
+
 }
 
+.daily_specials{
+font-size:30px;
+}
+
+.activities{
+font-size:30px;
+align-items:
+
+}
+
+.footer_div{
+    text-align:center;
+    font-size: 25px;
+}
