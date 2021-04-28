@@ -6,7 +6,6 @@ body {
    .nav {
         background-color: #333;
         font-size: 30px;
-        overflow: hidden;
   }
 
   .nav a {
