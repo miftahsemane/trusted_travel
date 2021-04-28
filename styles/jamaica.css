@@ -1,0 +1,70 @@
+html{
+    overflow: scroll;
+}
+
+header{
+  text-align:center;
+  color: green;
+  font-size: 50px;  
+  border: 10px solid yellow;
+  padding: 15px;
+}
+
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnNapGR7lvC4FCNhNrRXjnR3iqtZ4Et4ThsA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_article{
+    display:flex;
+    flex-direction :row;
+
+}
+
+section{
+    color: yellow;
+    font-size: 60px;
+    text-align:center;
+    justify-content: space-evenly;
+}
+
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid yellow;
+    font=size: 90px;
+    color: yellow;
+   background-color:black;
+} 
+
+p{
+    font-size: 40px;
+}
+
+.daily_specials{
+    list-style-type: none;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color:yellow;
+}
+
+a:active {
+  color: red;
+} 
+
+.daily_specials{
+    align-text:center;
+    font-size:30px;
+}
+
