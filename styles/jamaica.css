@@ -1,84 +1,90 @@
-html{
-    overflow: scroll;
+html {
+  overflow: scroll;
 }
 
-header{
-  text-align:center;
-  color: green;
-  font-size: 50px;  
+header {
+  text-align: center;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/From_the_Q113_td_%282018-08-03%29_45_-_Baisley_Park_Houses.jpg/300px-From_the_Q113_td_%282018-08-03%29_45_-_Baisley_Park_Houses.jpg');
+  color: red;
+  font-size: 50px;
   border: 10px solid yellow;
   padding: 15px;
 }
 
-body{
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnNapGR7lvC4FCNhNrRXjnR3iqtZ4Et4ThsA&usqp=CAU");
-    background-repeat: repeat;
-    background-size: cover;
-    background-size: 100%; 
+.project_words {
+  color: black;
 }
 
-.main_article{
-    display:flex;
-    flex-direction:column;
-
+body {
+  background-image: url('https://thumbs.gfycat.com/ColorlessLikableAlleycat.webp');
+ background-size: cover;
+  background-size: 100%;
 }
 
-section{
-    color: yellow;
-    font-size: 60px;
-    text-align:center;
-    justify-content: space-evenly;
+.main_article {
+  display: flex;
+  flex-direction: column;
 }
 
-.navbar{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: 1px solid yellow;
-    font=size: 90px;
-    color: yellow;
-   background-color:black;
-} 
-
-p{
-    font-size: 40px;
+section {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
-.daily_specials{
-    list-style-type: none;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid yellow;
+  font-size: 90px;
+  color: green;
+  background-color: black;
+}
+
+p {
+  font-size: 60px;
 }
 
 a:link {
-  color: blue;
+  color: red;
 }
 
 a:visited {
-  color: green;
+  color: orange;
 }
 
 a:hover {
-  color:red;
+  color: blue;
 }
 
 a:active {
-  color: yellow;
-} 
-
-.resorts{
-
+  color: black;
 }
 
-.daily_specials{
-font-size:30px;
+.resort {
+  justify-content: space-between;
 }
 
-.activities{
-font-size:30px;
-align-items:
-
+.daily_specials {
+  font-size: 30px;
+  text-align: center;
 }
 
-.footer_div{
-    text-align:center;
-    font-size: 25px;
+ul {
+  list-style: none;
+}
+
+.activities {
+  font-size: 30px;
+}
+
+.footer_div {
+  text-align: center;
+  font-size: 25px;
+}
+
+.footer_div a {
+  font-size: 60px;
 }
